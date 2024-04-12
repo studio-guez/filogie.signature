@@ -2,7 +2,7 @@
   <main class="v-mail-signature-generator fp-page">
     <div class="fp-grid-coll-container fp-grid-coll-container--center">
       <div class="fp-grid-coll-24-24 fp-grid-coll-reg-12-24 fp-grid-with-gutter">
-        <h1>Générateur de&nbsp;signature mail&nbsp;ForPro</h1>
+        <h1>Générateur de&nbsp;signature mail&nbsp;facenord</h1>
 
         <form
             class="v-mail-signature-generator__content fp-ui-form"
@@ -39,8 +39,8 @@
                 <td
                     height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding-top: 15px; color: black"
-                >Fondation <strong>ForPro</strong>
-                  <br>Fondation pour la promotion et la valorisation de&nbsp;la&nbsp;Formation&nbsp;Professionnelle
+                >facenord
+                  <br>Accompagner des dynamiques solidaires et durables
                 </td>
               </tr>
 
@@ -48,7 +48,7 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
                 >
-                  Route de la Galaise 15B
+                    Route de la Galaise, 23a
                   <br>1228 Plan-les-Ouates
                 </td>
               </tr>
@@ -68,29 +68,11 @@
                     cellspacing="0"
                     height="auto"
                 >
-                  <img alt="logo forpro"
-                       height="30"
-                       style="height: 30px; margin-top: 15px"
-                       src="https://for-pro.ch/signature__logo.png" >
+                  <img alt="logo facenord"
+                       height="105"
+                       style="height: 105px; margin-top: 15px"
+                       src="/logo.jpeg" >
                 </td>
-              </tr>
-
-              <tr>
-                  <td border="0"
-                      cellpadding="0"
-                      cellspacing="0"
-                      height="auto"
-                  >
-                      <img alt="image recrutement"
-                           width="150"
-                           style="width: 150px; margin-top: 15px"
-                           src="https://for-pro.ch/ForPro-recrute.png" >
-                      <a
-                              style="display: block;margin-top: 7px;width: 150px;text-align: center; color: #1754ff;"
-                              target="_blank"
-                              href="https://for-pro.ch/recrutement/"
-                      >for-pro.ch/recrutement</a>
-                  </td>
               </tr>
               </tbody>
             </table>
@@ -98,7 +80,7 @@
         </div>
         <button
             @click="copySignatureInClipBoard"
-            class="fp-ui-button"
+            class="fc-button"
         >Selectionner le texte de signature</button>
 
           <p

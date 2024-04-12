@@ -3,13 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   app: {
-    baseURL: '/forpro.signature/',
+    baseURL: '/facenord.signature/',
   },
-  // runtimeConfig: {
-  //   public: {
-  //     apiBaseUrl: '/forpro.signature/',
-  //   }
-  // },
   css: [
     "@/assets/___main.scss",
   ],
