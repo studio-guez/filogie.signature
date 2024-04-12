@@ -69,9 +69,9 @@
                     height="auto"
                 >
                   <img alt="logo facenord"
-                       height="105"
-                       style="height: 105px; margin-top: 15px"
-                       src="/logo.jpeg" >
+                       height="200"
+                       style="height: 200px; margin-top: 15px"
+                       src="/logo.png" >
                 </td>
               </tr>
               </tbody>
