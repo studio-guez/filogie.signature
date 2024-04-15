@@ -2,7 +2,7 @@
   <main class="v-mail-signature-generator fp-page">
     <div class="fp-grid-coll-container fp-grid-coll-container--center">
       <div class="fp-grid-coll-24-24 fp-grid-coll-reg-12-24 fp-grid-with-gutter">
-        <h1>Générateur de&nbsp;signature mail&nbsp;lecinematographe</h1>
+        <h1>Générateur de&nbsp;signature mail le cinematographe</h1>
 
         <form
             class="v-mail-signature-generator__content fp-ui-form"
@@ -29,7 +29,7 @@
               <tbody>
               <tr>
                 <td height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black"
+                    style="padding-left:30px; font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black"
                 >
                   {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}} ({{getCleanedEmptyString(pronom, 'pronom')}})
                   <br>
@@ -39,7 +39,7 @@
               <tr>
                 <td
                     height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding-top: 15px; color: black"
+                    style="padding-left:30px;font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding-top: 15px; color: black"
                 >lecinematographe
                   <br>Cinéma Lausanne
                 </td>
@@ -47,7 +47,7 @@
 
               <tr style="padding-top: 15px" >
                 <td height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
+                    style="padding-left:30px;font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
                 >
                     Casino de Montbenon,
                     <br>All. Ernest-Ansermet 3,
@@ -57,7 +57,7 @@
 
               <tr>
                 <td height="auto"
-                    style="font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
+                    style="padding-left:30px;font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
                 >
                   <a :href="'tel:' + tel"
                      style="text-decoration: none"
@@ -71,8 +71,8 @@
                     height="auto"
                 >
                   <img alt="logo lecinematographe"
-                       height="200"
-                       style="height: 200px; margin-top: 15px"
+                       height="151"
+                       style="height: 151px; margin-top: 15px"
                        src="/logo.png" >
                 </td>
               </tr>
