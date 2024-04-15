@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   app: {
-    baseURL: '/facenord.signature/',
+    baseURL: '/lecinematographe.signature/',
   },
   css: [
     "@/assets/___main.scss",

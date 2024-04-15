@@ -2,13 +2,14 @@
   <main class="v-mail-signature-generator fp-page">
     <div class="fp-grid-coll-container fp-grid-coll-container--center">
       <div class="fp-grid-coll-24-24 fp-grid-coll-reg-12-24 fp-grid-with-gutter">
-        <h1>Générateur de&nbsp;signature mail&nbsp;facenord</h1>
+        <h1>Générateur de&nbsp;signature mail&nbsp;lecinematographe</h1>
 
         <form
             class="v-mail-signature-generator__content fp-ui-form"
         >
           <input type="text" placeholder="prénom"   v-model="firstname">
           <input type="text" placeholder="nom"      v-model="name">
+          <input type="text" placeholder="pronom"      v-model="pronom">
           <input type="text" placeholder="fonction" v-model="activity" >
           <input type="text" placeholder="numéro"   v-model="tel" >
         </form>
@@ -30,7 +31,7 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black"
                 >
-                  {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
+                  {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}} ({{getCleanedEmptyString(pronom, 'pronom')}})
                   <br>
                   {{getCleanedEmptyString(activity, 'fonction')}}
                 </td>
@@ -39,8 +40,8 @@
                 <td
                     height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding-top: 15px; color: black"
-                >facenord
-                  <br>Accompagner des dynamiques solidaires et durables
+                >lecinematographe
+                  <br>Cinéma Lausanne
                 </td>
               </tr>
 
@@ -48,8 +49,9 @@
                 <td height="auto"
                     style="font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
                 >
-                    Route de la Galaise, 23a
-                  <br>1228 Plan-les-Ouates
+                    Casino de Montbenon,
+                    <br>All. Ernest-Ansermet 3,
+                    <br>1003 Lausanne
                 </td>
               </tr>
 
@@ -68,7 +70,7 @@
                     cellspacing="0"
                     height="auto"
                 >
-                  <img alt="logo facenord"
+                  <img alt="logo lecinematographe"
                        height="200"
                        style="height: 200px; margin-top: 15px"
                        src="/logo.png" >
@@ -107,6 +109,7 @@ export default defineComponent({
       name: '',
       activity: '',
       tel: '',
+      pronom: '',
     }
   },
 
