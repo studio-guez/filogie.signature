@@ -73,7 +73,8 @@
                   <img alt="logo lecinematographe"
                        height="151"
                        style="height: 151px; margin-top: 15px"
-                       src="/logo.png" >
+                       src="http://localhost:3000/lecinematographe.signature/logo.png"
+                  >
                 </td>
               </tr>
               </tbody>
