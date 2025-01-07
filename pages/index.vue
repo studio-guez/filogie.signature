@@ -73,7 +73,7 @@
                   <img alt="logo lecinematographe"
                        height="151"
                        style="height: 151px; margin-top: 15px"
-                       src="http://localhost:3000/lecinematographe.signature/logo.png"
+                       src="https://villa1203.github.io/lecinematographe.signature/logo.png"
                   >
                 </td>
               </tr>
