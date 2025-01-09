@@ -29,7 +29,7 @@
                 <td style="vertical-align: top;">
                   <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; ">
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 35px;">
                         <p style="text-align: center; margin: 0">
                           <img
                                 alt="logo lecinematographe"
@@ -38,7 +38,7 @@
                                 src="https://villa1203.github.io/lecinematographe.signature/logo.png"
                           />
                         </p>
-                        <p id="socialIcons" style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
+                        <p style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
                           <a href="https://www.instagram.com/lecinematographe_lausanne/"
                              target="_blank"
                              style="color: blue;"
