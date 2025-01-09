@@ -126,6 +126,112 @@
               outil de messagerie mail, dans les paramètres de signatures automatiques.
           </p>
 
+        <div class="v-mail-signature-generator__code-viewer"
+        >
+          <button @click="showCode = !showCode"
+                  class="fc-button--small"
+                  style="
+                    background: black;
+                    margin-bottom: 1rem;
+                  "
+          >voir le code</button>
+
+          <textarea style="font-size: 12px"
+                    readonly
+                    v-if="showCode"
+          >
+              <table cellpadding="0" cellspacing="0" border="0" role="presentation"
+                     style="border-collapse: collapse !important; width: auto;">
+              <tr>
+                <td style="vertical-align: top;">
+                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 35px;">
+                        <p style="text-align: center; margin: 0">
+                          <img
+                                  alt="logo lecinematographe"
+                                  height="151"
+                                  style="height: 151px"
+                                  src="https://villa1203.github.io/lecinematographe.signature/logo.png"
+                          />
+                        </p>
+                        <p style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
+                          <a href="https://www.instagram.com/lecinematographe_lausanne/"
+                             target="_blank"
+                             style="color: blue;"
+                          >
+                            @lecinematographe_lausanne
+                          </a>
+                        </p>
+                      </td>
+                      <td style="padding-right: 15px; "></td>
+                    </tr>
+                  </table>
+                </td>
+                <td style="vertical-align: top;">
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 20px; font-weight: bold;"
+                  >
+                    {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
+                    <br><span style="font-size: 12px; font-family:Helvetica, Arial, sans-serif;">({{getCleanedEmptyString(pronom, 'pronom')}})</span>
+                  </p>
+
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="line-height: 10px">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td style="border: none; line-height: 1px; height: 1px; background-color: #eeeeee;"></td>
+                    </tr>
+                    <tr>
+                      <td style="line-height: 10px">&nbsp;</td>
+                    </tr>
+                  </table>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
+                    {{getCleanedEmptyString(activity, 'fonction')}}
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
+                    Le Cinématographe
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
+                    Casino de Montbenon,
+                    <br>All. Ernest-Ansermet 3,
+                    <br>1003 Lausanne
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
+                    <a :href="'tel:' + tel"
+                       target="_blank"
+                       style="color: #444444"
+                    >
+                       {{getCleanedEmptyString(tel, 'numéro')}}
+                    </a>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;">
+                    <a id="websiteLink"
+                       target="_blank"
+                       style="color: #444444"
+                       href="https://lecinematographe.ch/"
+                    >lecinematographe.ch</a></p>
+                </td>
+              </tr>
+            </table>
+            </textarea>
+        </div>
+
       </div>
 
     </div>
@@ -144,6 +250,7 @@ export default defineComponent({
       activity: '',
       tel: '',
       pronom: '',
+      showCode: false,
     }
   },
 
@@ -232,10 +339,23 @@ h1 {
     box-sizing: border-box;
     background: var(--color-background);
     box-shadow: inset 0 0 0 2px currentColor;
-    padding: calc(var(--unit-gutter-half) / 2 );
     margin-bottom: 1rem;
     line-height: .5ex;
     padding: .5rem 1rem;
+  }
+}
+
+.v-mail-signature-generator__code-viewer {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  textarea {
+    display: block;
+    width: 100%;
+    height: 20rem;
+    resize: none;
   }
 }
 </style>

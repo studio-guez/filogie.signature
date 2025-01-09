@@ -57,6 +57,12 @@ button {
   box-shadow: 40px 33px 26px #00000029;
   color: white;
   cursor: pointer;
+
+  &.fc-button--small {
+    font-size: .75rem;
+    padding: .5rem .5rem;
+    box-shadow: none;
+  }
 }
 
 a {
