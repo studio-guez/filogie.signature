@@ -29,7 +29,7 @@
                 <td style="vertical-align: top;">
                   <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 10px;">
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 30px; padding-top: 30px;">
                         <p style="text-align: center; margin: 0">
                           <img
                                 alt="logo lecinematographe"
@@ -37,13 +37,6 @@
                                 style="height: 151px"
                                 src="https://villa1203.github.io/lecinematographe.signature/logo.png"
                           />
-                        </p>
-                        <p style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
-                          <a href="https://www.instagram.com/lecinematographe_lausanne/"
-                             target="_blank"
-                          >
-                            @lecinematographe_lausanne
-                          </a>
                         </p>
                       </td>
                       <td style="padding-right: 15px; "></td>
@@ -69,20 +62,20 @@
                     </tr>
                   </table>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     {{getCleanedEmptyString(activity, 'fonction')}}
                     <br>
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     Le Cinématographe
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     Casino de Montbenon,
                     <br>All. Ernest-Ansermet 3,
@@ -90,7 +83,7 @@
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     <a :href="'tel:' + tel"
                        target="_blank"
@@ -100,12 +93,20 @@
                     </a>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;">
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;">
                     <a id="websiteLink"
                        target="_blank"
-                       style="color: #444444"
+                       style="color: #444444; text-decoration: underline;"
                        href="https://lecinematographe.ch/"
                     >lecinematographe.ch</a></p>
+                  <p style="padding: 0;margin: 0; text-align: left; font-size: 12px; line-height: 15px; font-weight: normal;">
+                    <a href="https://www.instagram.com/lecinematographe_lausanne/"
+                       style="color: #444444; text-decoration: underline;"
+                       target="_blank"
+                    >
+                      @lecinematographe_lausanne
+                    </a>
+                  </p>
                 </td>
               </tr>
             </table>
@@ -143,7 +144,7 @@
                 <td style="vertical-align: top;">
                   <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 10px;">
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 30px; padding-top: 30px;">
                         <p style="text-align: center; margin: 0">
                           <img
                                 alt="logo lecinematographe"
@@ -151,13 +152,6 @@
                                 style="height: 151px"
                                 src="https://villa1203.github.io/lecinematographe.signature/logo.png"
                           />
-                        </p>
-                        <p style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
-                          <a href="https://www.instagram.com/lecinematographe_lausanne/"
-                             target="_blank"
-                          >
-                            @lecinematographe_lausanne
-                          </a>
                         </p>
                       </td>
                       <td style="padding-right: 15px; "></td>
@@ -183,20 +177,20 @@
                     </tr>
                   </table>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     {{getCleanedEmptyString(activity, 'fonction')}}
                     <br>
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     Le Cinématographe
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     Casino de Montbenon,
                     <br>All. Ernest-Ansermet 3,
@@ -204,7 +198,7 @@
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
                     <a :href="'tel:' + tel"
                        target="_blank"
@@ -214,12 +208,20 @@
                     </a>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;">
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;">
                     <a id="websiteLink"
                        target="_blank"
-                       style="color: #444444"
+                       style="color: #444444; text-decoration: underline;"
                        href="https://lecinematographe.ch/"
                     >lecinematographe.ch</a></p>
+                  <p style="padding: 0;margin: 0; text-align: left; font-size: 12px; line-height: 15px; font-weight: normal;">
+                    <a href="https://www.instagram.com/lecinematographe_lausanne/"
+                       style="color: #444444; text-decoration: underline;"
+                       target="_blank"
+                    >
+                      @lecinematographe_lausanne
+                    </a>
+                  </p>
                 </td>
               </tr>
             </table>
