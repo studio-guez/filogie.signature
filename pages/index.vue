@@ -29,7 +29,7 @@
                 <td style="vertical-align: top;">
                   <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 35px;">
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 10px;">
                         <p style="text-align: center; margin: 0">
                           <img
                                 alt="logo lecinematographe"
@@ -41,7 +41,6 @@
                         <p style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
                           <a href="https://www.instagram.com/lecinematographe_lausanne/"
                              target="_blank"
-                             style="color: blue;"
                           >
                             @lecinematographe_lausanne
                           </a>
@@ -81,7 +80,6 @@
                   >
                     Le Cinématographe
                     <br>
-                    <br>
                   </p>
 
                   <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
@@ -89,7 +87,6 @@
                     Casino de Montbenon,
                     <br>All. Ernest-Ansermet 3,
                     <br>1003 Lausanne
-                    <br>
                     <br>
                   </p>
 
@@ -136,29 +133,28 @@
                   "
           >voir le code</button>
 
-          <textarea style="font-size: 12px"
+          <textarea style="font-size: 12px; line-height: 14px"
                     readonly
                     v-if="showCode"
           >
-              <table cellpadding="0" cellspacing="0" border="0" role="presentation"
-                     style="border-collapse: collapse !important; width: auto;">
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation"
+                   style="border-collapse: collapse !important; width: auto;">
               <tr>
                 <td style="vertical-align: top;">
                   <table cellpadding="0" cellspacing="0" border="0" role="presentation">
                     <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 35px;">
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 10px;">
                         <p style="text-align: center; margin: 0">
                           <img
-                                  alt="logo lecinematographe"
-                                  height="151"
-                                  style="height: 151px"
-                                  src="https://villa1203.github.io/lecinematographe.signature/logo.png"
+                                alt="logo lecinematographe"
+                                height="151"
+                                style="height: 151px"
+                                src="https://villa1203.github.io/lecinematographe.signature/logo.png"
                           />
                         </p>
                         <p style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
                           <a href="https://www.instagram.com/lecinematographe_lausanne/"
                              target="_blank"
-                             style="color: blue;"
                           >
                             @lecinematographe_lausanne
                           </a>
@@ -198,7 +194,6 @@
                   >
                     Le Cinématographe
                     <br>
-                    <br>
                   </p>
 
                   <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
@@ -206,7 +201,6 @@
                     Casino de Montbenon,
                     <br>All. Ernest-Ansermet 3,
                     <br>1003 Lausanne
-                    <br>
                     <br>
                   </p>
 
@@ -229,7 +223,7 @@
                 </td>
               </tr>
             </table>
-            </textarea>
+          </textarea>
         </div>
 
       </div>
