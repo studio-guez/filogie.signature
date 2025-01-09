@@ -23,61 +23,94 @@
               ref="htmlContent"
               style="width: 100%"
           >
-            <table
-                style="width:100%; font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black"
-            >
-              <tbody>
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation"
+                   style="border-collapse: collapse !important; width: auto;">
               <tr>
-                <td height="auto"
-                    style="padding-left:30px; font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; color: black"
-                >
-                  {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}} ({{getCleanedEmptyString(pronom, 'pronom')}})
-                  <br>
-                  {{getCleanedEmptyString(activity, 'fonction')}}
+                <td style="vertical-align: top;">
+                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+                    <tr>
+                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; ">
+                        <p style="text-align: center; margin: 0">
+                          <img
+                                alt="logo lecinematographe"
+                                height="151"
+                                style="height: 151px"
+                                src="https://villa1203.github.io/lecinematographe.signature/logo.png"
+                          />
+                        </p>
+                        <p id="socialIcons" style="padding: 10px;margin: 0; text-align: center; font-size: 12px; line-height: 14px; font-weight: normal;">
+                          <a href="https://www.instagram.com/lecinematographe_lausanne/"
+                             target="_blank"
+                             style="color: blue;"
+                          >
+                            @lecinematographe_lausanne
+                          </a>
+                        </p>
+                      </td>
+                      <td style="padding-right: 15px; "></td>
+                    </tr>
+                  </table>
                 </td>
-              </tr>
-              <tr>
-                <td
-                    height="auto"
-                    style="padding-left:30px;font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height: 15px; font-weight: normal; padding-top: 15px; color: black"
-                >lecinematographe
-                  <br>Cinéma Lausanne
-                </td>
-              </tr>
+                <td style="vertical-align: top;">
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 20px; font-weight: bold;"
+                  >
+                    {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
+                    <br><span style="font-size: 12px; font-family:Helvetica, Arial, sans-serif;">({{getCleanedEmptyString(pronom, 'pronom')}})</span>
+                  </p>
 
-              <tr style="padding-top: 15px" >
-                <td height="auto"
-                    style="padding-left:30px;font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
-                >
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td style="line-height: 10px">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td style="border: none; line-height: 1px; height: 1px; background-color: #eeeeee;"></td>
+                    </tr>
+                    <tr>
+                      <td style="line-height: 10px">&nbsp;</td>
+                    </tr>
+                  </table>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
+                    {{getCleanedEmptyString(activity, 'fonction')}}
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
+                    Le Cinématographe
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
+                  >
                     Casino de Montbenon,
                     <br>All. Ernest-Ansermet 3,
                     <br>1003 Lausanne
-                </td>
-              </tr>
+                    <br>
+                    <br>
+                  </p>
 
-              <tr>
-                <td height="auto"
-                    style="padding-left:30px;font-family:Helvetica, Arial, sans-serif; padding-top: 15px; line-height: 15px; font-size:12px; color:black;"
-                >
-                  <a :href="'tel:' + tel"
-                     style="text-decoration: none"
-                  >{{getCleanedEmptyString(tel, 'numéro')}}</a>
-                </td>
-              </tr>
-              <tr>
-                <td border="0"
-                    cellpadding="0"
-                    cellspacing="0"
-                    height="auto"
-                >
-                  <img alt="logo lecinematographe"
-                       height="151"
-                       style="height: 151px; margin-top: 15px"
-                       src="https://villa1203.github.io/lecinematographe.signature/logo.png"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;"
                   >
+                    <a :href="'tel:' + tel"
+                       target="_blank"
+                       style="color: #444444"
+                    >
+                       {{getCleanedEmptyString(tel, 'numéro')}}
+                    </a>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 14px;">
+                    <a id="websiteLink"
+                       target="_blank"
+                       style="color: #444444"
+                       href="https://lecinematographe.ch/"
+                    >lecinematographe.ch</a></p>
                 </td>
               </tr>
-              </tbody>
             </table>
           </div>
         </div>
