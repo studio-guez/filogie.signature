@@ -114,7 +114,73 @@
           <textarea style="font-size: 12px; line-height: 14px"
                     readonly
                     v-if="showCode"
-          ></textarea>
+          >
+            <table cellpadding="0" cellspacing="0" border="0" role="presentation"
+                   style="border-collapse: collapse !important; width: auto;">
+              <tr>
+                <td style="vertical-align: top;">
+                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
+
+                  </table>
+                </td>
+                <td style="vertical-align: top;">
+
+                    <p style="text-align: left; margin: 0; margin-bottom: 10px;">
+                      <img
+                              alt="logo Filogie"
+                              height="39"
+                              width="122"
+                              style="height: 39px; width: 122px; display: block"
+                              src="https://studio-guez.github.io/filogie.signature/logo.png"
+                      />
+                    </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; font-weight: bold;"
+                  >
+                    {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;"
+                  >
+                    {{getCleanedEmptyString(activity, 'fonction')}}
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px; font-weight: bold;"
+                  >
+                    Fondation Filogie
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;"
+                  >
+                    Route de la Galaise 17
+                    <br>1003 Plan-les-Ouates
+                    <br>
+                    <br>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;"
+                  >
+                    <a :href="'mailto:' + email"
+                       target="_blank"
+                       style="color: #000; text-decoration: underline;"
+                    >
+                       {{getCleanedEmptyString(email, 'email')}}
+                    </a>
+                  </p>
+
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;">
+                    <a id="websiteLink"
+                       target="_blank"
+                       style="color: #000; text-decoration: underline;"
+                       href="https://filogie.ch/"
+                    >filogie.ch</a></p>
+                </td>
+              </tr>
+            </table>
+          </textarea>
         </div>
 
       </div>
