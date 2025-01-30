@@ -32,7 +32,7 @@
                 </td>
                 <td style="vertical-align: top;">
 
-                    <p style="text-align: left; margin: 0">
+                    <p style="text-align: left; margin: 0; margin-bottom: 10px;">
                       <img
                               alt="logo Filogie"
                               height="39"
@@ -72,7 +72,7 @@
                   >
                     <a :href="'mailto:' + email"
                        target="_blank"
-                       style="color: #000"
+                       style="color: #000; text-decoration: underline;"
                     >
                        {{getCleanedEmptyString(email, 'email')}}
                     </a>
