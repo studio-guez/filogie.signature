@@ -2,16 +2,15 @@
   <main class="v-mail-signature-generator fp-page">
     <div class="fp-grid-coll-container fp-grid-coll-container--center">
       <div class="fp-grid-coll-24-24 fp-grid-coll-reg-12-24 fp-grid-with-gutter">
-        <h1>Générateur de&nbsp;signature mail le cinematographe</h1>
+        <h1>Générateur de&nbsp;signature mail Filogie</h1>
 
         <form
             class="v-mail-signature-generator__content fp-ui-form"
         >
           <input type="text" placeholder="prénom"   v-model="firstname">
           <input type="text" placeholder="nom"      v-model="name">
-          <input type="text" placeholder="pronom"      v-model="pronom">
           <input type="text" placeholder="fonction" v-model="activity" >
-          <input type="text" placeholder="numéro"   v-model="tel" >
+          <input type="text" placeholder="email"   v-model="email" >
         </form>
 
         <div
@@ -28,39 +27,26 @@
               <tr>
                 <td style="vertical-align: top;">
                   <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-                    <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 30px; padding-top: 30px;">
-                        <p style="text-align: center; margin: 0">
-                          <img
-                                alt="logo lecinematographe"
-                                height="151"
-                                style="height: 151px"
-                                src="https://villa1203.github.io/lecinematographe.signature/logo.png"
-                          />
-                        </p>
-                      </td>
-                      <td style="padding-right: 15px; "></td>
-                    </tr>
+
                   </table>
                 </td>
                 <td style="vertical-align: top;">
+
+                  <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 30px; padding-top: 30px;">
+                    <p style="text-align: center; margin: 0">
+                      <img
+                              alt="logo Filogie"
+                              height="151"
+                              style="height: 151px"
+                              src="https://villa1203.github.io/lecinematographe.signature/logo.png"
+                      />
+                    </p>
+                  </td>
+
                   <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 20px; font-weight: bold;"
                   >
                     {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
-                    <br><span style="font-size: 12px; font-family:Helvetica, Arial, sans-serif;">({{getCleanedEmptyString(pronom, 'pronom')}})</span>
                   </p>
-
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td style="line-height: 10px">&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td style="border: none; line-height: 1px; height: 1px; background-color: #eeeeee;"></td>
-                    </tr>
-                    <tr>
-                      <td style="line-height: 10px">&nbsp;</td>
-                    </tr>
-                  </table>
 
                   <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
@@ -85,11 +71,11 @@
 
                   <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
                   >
-                    <a :href="'tel:' + tel"
+                    <a :href="'mailto:' + email"
                        target="_blank"
                        style="color: #444444"
                     >
-                       {{getCleanedEmptyString(tel, 'numéro')}}
+                       {{getCleanedEmptyString(email, 'email')}}
                     </a>
                   </p>
 
@@ -97,16 +83,8 @@
                     <a id="websiteLink"
                        target="_blank"
                        style="color: #444444; text-decoration: underline;"
-                       href="https://lecinematographe.ch/"
-                    >lecinematographe.ch</a></p>
-                  <p style="padding: 0;margin: 0; text-align: left; font-size: 12px; line-height: 15px; font-weight: normal;">
-                    <a href="https://www.instagram.com/lecinematographe_lausanne/"
-                       style="color: #444444; text-decoration: underline;"
-                       target="_blank"
-                    >
-                      @lecinematographe_lausanne
-                    </a>
-                  </p>
+                       href="https://filogie.ch/"
+                    >filogie.ch</a></p>
                 </td>
               </tr>
             </table>
@@ -137,95 +115,7 @@
           <textarea style="font-size: 12px; line-height: 14px"
                     readonly
                     v-if="showCode"
-          >
-            <table cellpadding="0" cellspacing="0" border="0" role="presentation"
-                   style="border-collapse: collapse !important; width: auto;">
-              <tr>
-                <td style="vertical-align: top;">
-                  <table cellpadding="0" cellspacing="0" border="0" role="presentation">
-                    <tr>
-                      <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 30px; padding-top: 30px;">
-                        <p style="text-align: center; margin: 0">
-                          <img
-                                alt="logo lecinematographe"
-                                height="151"
-                                style="height: 151px"
-                                src="https://villa1203.github.io/lecinematographe.signature/logo.png"
-                          />
-                        </p>
-                      </td>
-                      <td style="padding-right: 15px; "></td>
-                    </tr>
-                  </table>
-                </td>
-                <td style="vertical-align: top;">
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 20px; font-weight: bold;"
-                  >
-                    {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
-                    <br><span style="font-size: 12px; font-family:Helvetica, Arial, sans-serif;">({{getCleanedEmptyString(pronom, 'pronom')}})</span>
-                  </p>
-
-                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                      <td style="line-height: 10px">&nbsp;</td>
-                    </tr>
-                    <tr>
-                      <td style="border: none; line-height: 1px; height: 1px; background-color: #eeeeee;"></td>
-                    </tr>
-                    <tr>
-                      <td style="line-height: 10px">&nbsp;</td>
-                    </tr>
-                  </table>
-
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
-                  >
-                    {{getCleanedEmptyString(activity, 'fonction')}}
-                    <br>
-                    <br>
-                  </p>
-
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
-                  >
-                    Le Cinématographe
-                    <br>
-                  </p>
-
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
-                  >
-                    Casino de Montbenon,
-                    <br>All. Ernest-Ansermet 3,
-                    <br>1003 Lausanne
-                    <br>
-                  </p>
-
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
-                  >
-                    <a :href="'tel:' + tel"
-                       target="_blank"
-                       style="color: #444444"
-                    >
-                       {{getCleanedEmptyString(tel, 'numéro')}}
-                    </a>
-                  </p>
-
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;">
-                    <a id="websiteLink"
-                       target="_blank"
-                       style="color: #444444; text-decoration: underline;"
-                       href="https://lecinematographe.ch/"
-                    >lecinematographe.ch</a></p>
-                  <p style="padding: 0;margin: 0; text-align: left; font-size: 12px; line-height: 15px; font-weight: normal;">
-                    <a href="https://www.instagram.com/lecinematographe_lausanne/"
-                       style="color: #444444; text-decoration: underline;"
-                       target="_blank"
-                    >
-                      @lecinematographe_lausanne
-                    </a>
-                  </p>
-                </td>
-              </tr>
-            </table>
-          </textarea>
+          ></textarea>
         </div>
 
       </div>
@@ -244,8 +134,7 @@ export default defineComponent({
       firstname: '',
       name: '',
       activity: '',
-      tel: '',
-      pronom: '',
+      email: '',
       showCode: false,
     }
   },

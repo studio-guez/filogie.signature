@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: '/lecinematographe.signature/',
+    baseURL: '/filogie.signature/',
   },
 
   css: [
