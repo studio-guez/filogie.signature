@@ -32,57 +32,56 @@
                 </td>
                 <td style="vertical-align: top;">
 
-                  <td style="vertical-align: top;padding-right: 0px; border-right: 2px dotted #000; padding-bottom: 30px; padding-top: 30px;">
-                    <p style="text-align: center; margin: 0">
+                    <p style="text-align: left; margin: 0">
                       <img
                               alt="logo Filogie"
-                              height="151"
-                              style="height: 151px"
-                              src="https://villa1203.github.io/lecinematographe.signature/logo.png"
+                              height="39"
+                              width="122"
+                              style="height: 39px; width: 122px; display: block"
+                              src="https://studio-guez.github.io/filogie.signature/logo.png"
                       />
                     </p>
-                  </td>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 20px; font-weight: bold;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; font-weight: bold;"
                   >
                     {{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;"
                   >
                     {{getCleanedEmptyString(activity, 'fonction')}}
                     <br>
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px; font-weight: bold;"
                   >
-                    Le Cinématographe
+                    Fondation Filogie
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;"
                   >
-                    Casino de Montbenon,
-                    <br>All. Ernest-Ansermet 3,
-                    <br>1003 Lausanne
+                    Route de la Galaise 17
+                    <br>1003 Plan-les-Ouates
+                    <br>
                     <br>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;"
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;"
                   >
                     <a :href="'mailto:' + email"
                        target="_blank"
-                       style="color: #444444"
+                       style="color: #000"
                     >
                        {{getCleanedEmptyString(email, 'email')}}
                     </a>
                   </p>
 
-                  <p style="font-family:Helvetica, Arial, sans-serif; color: #444444; padding: 0; margin: 0; font-size: 12px; line-height: 15px;">
+                  <p style="font-family:Helvetica, Arial, sans-serif; color: #000; padding: 0; margin: 0; font-size: 15px; line-height: 18px;">
                     <a id="websiteLink"
                        target="_blank"
-                       style="color: #444444; text-decoration: underline;"
+                       style="color: #000; text-decoration: underline;"
                        href="https://filogie.ch/"
                     >filogie.ch</a></p>
                 </td>
