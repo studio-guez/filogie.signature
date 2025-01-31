@@ -29,7 +29,7 @@
             <div><br></div>
             <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;"><b>Fondation Filogie</b></span><br></div>
             <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">Route de la Galaise 17</span><br></div>
-            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">1003 Plan-les-Ouates</span><br></div>
+            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">1228 Plan-les-Ouates</span><br></div>
             <div><br></div>
             <div><a :href="'mailto:' + email" target="_blank"
                     rel="noopener noreferrer">
@@ -75,19 +75,27 @@
           >
             <div><img src="https://studio-guez.github.io/filogie.signature/logo.png" alt="logo Fondation Filogie"><br></div>
             <div><br></div>
-            <div><b>{{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}</b><br></div>
-            <div>{{getCleanedEmptyString(activity, 'fonction')}}<br></div>
+            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;"><b>{{getCleanedEmptyString(firstname, 'prénom')}} {{getCleanedEmptyString(name, '/ nom')}}</b></span><br></div>
+            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">{{getCleanedEmptyString(activity, 'fonction')}}</span><br></div>
             <div><br></div>
-            <div><b>Fondation Filogie</b><br></div>
-            <div>Route de la Galaise 17<br></div>
-            <div>1003 Plan-les-Ouates<br></div>
+            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;"><b>Fondation Filogie</b></span><br></div>
+            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">Route de la Galaise 17</span><br></div>
+            <div><span style="font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">1228 Plan-les-Ouates</span><br></div>
             <div><br></div>
-            <div><a :href="'mailto:' + email" class="ik-text-editor__link" target="_blank"
-                    rel="noopener noreferrer"><span class="colour" style="color:#000000"><u>{{getCleanedEmptyString(email, 'email')}}</u></span></a><span
-                    class="colour" style="color:#000000"><u><br></u></span></div>
-            <div><a href="https://filogie.ch/" class="ik-text-editor__link" target="_blank"
-                    rel="noopener noreferrer"><span class="colour" style="color:#000000"><u>filogie.ch</u></span></a><span
-                    class="colour" style="color:#000000"><u><br></u></span></div>
+            <div><a :href="'mailto:' + email" target="_blank"
+                    rel="noopener noreferrer">
+              <span style="color:#000000; font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">
+                <u>{{getCleanedEmptyString(email, 'email') }}</u>
+              </span></a>
+              <u><br></u>
+            </div>
+            <div><a href="https://filogie.ch/" target="_blank"
+                    rel="noopener noreferrer">
+              <span style="color:#000000; font-family: Helvetica, sans-serif; font-size: 15px; line-height: 18px;">
+                <u>filogie.ch</u>
+              </span></a>
+              <u><br></u>
+            </div>
           </textarea>
         </div>
 
